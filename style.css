@@ -35,6 +35,9 @@ button {
     font-family: 'Oswald', sans-serif;
     cursor: pointer;
     font-size: 23px;
+    background: linear-gradient(90deg, rgba(80,0,27,1) 0%, rgba(255,215,0,1) 0%, rgba(192,192,192,1) 100%);
+    background: indigo!important;
+    color: orange!important;
 }
 
 #homeBtn {
@@ -98,8 +101,11 @@ button {
 }
 
 #github {
-    text-align: center;
-    color: white;
     display: flex;
+    color: white;
+    margin: auto;
+    width: 0%;
+    margin-top: -750px;
+    margin-bottom: 800px;
     
 }
