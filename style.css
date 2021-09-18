@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+h1 {
+    font-family: lobster;
+    text-align: center;
+    color: goldenrod;
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: lobster;
+    text-align: center;
+    color: darkkhaki;
+    font-size: 45px;
+    margin-top: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thick;
+}
+
+body {
+    background: purple;
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    position: sticky;
+}
+
+button {
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    font-size: 23px;
+}
+
+#homeBtn {
+    width: 75px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+    background: darkgoldenrod;
+    border: none;
+    border-radius: 5%;
+
+}
+
+#homeBtn:hover {
+    transform: scale(110%);
+}
+
+#aboutBtn {
+    width: 75px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    background: darkgoldenrod;
+    border: none;
+    border-radius: 5%;
+}
+
+#aboutBtn:hover {
+    transform: scale(110%);
+}
+
+#workBtn {
+    width: 150px;
+    height: 75px;
+    padding: 10px;
+    text-align: center;
+    background: darkgoldenrod;
+    border: none;
+    border-radius: 5%;
+    margin-top: 400px;
+    margin-left: 875px;
+}
+
+#workBtn:hover {
+    transform: scale(110%);
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin-left: 45px;
+    margin-top: 10px;
+    border-top: 20px solid black;
+}
+
+#work {
+    margin-bottom: 800px;
+}
