@@ -96,3 +96,10 @@ button {
 #work {
     margin-bottom: 800px;
 }
+
+#github {
+    text-align: center;
+    color: white;
+    display: flex;
+    
+}
