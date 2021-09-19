@@ -107,5 +107,34 @@ button {
     width: 0%;
     margin-top: -750px;
     margin-bottom: 800px;
-    
+}
+
+.contact {
+    margin-left: 500px;
+    font-family: oswald;
+    color: gold;
+    font-size: 20px;
+}
+
+h3 {
+    display: flex;
+    font-family: lobster;
+    text-align: center;
+    color: darkkhaki;
+    font-size: 45px;
+}
+
+summary {
+    text-align:justify;
+    font-family: oswald;
+    color: gold;
+    font-size: 20px;
+}
+
+.aboutMe {
+    margin-left: 500px;
+}
+
+#submitBtn:hover {
+    transform: scale(110%);
 }
