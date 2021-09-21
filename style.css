@@ -132,9 +132,40 @@ summary {
 }
 
 .aboutMe {
+
     margin-left: 500px;
 }
 
 #submitBtn:hover {
     transform: scale(110%);
+}
+
+.skills {
+    display: flex;
+    margin: 0px 0px 100px 500px;
+}
+
+img {
+    width: auto;
+    height: 100px;
+    padding: 20px;
+}
+
+#skills {
+    margin: 25px 0px 25px 500px;
+}
+
+#ik {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.visitors {
+    position: absolute;
+    color: white;
+    font-family: oswald;
+    font-size: 20px;
 }

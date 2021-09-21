@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="countVisitors()">
     <div id="home"></div>
     <div class="navbar">
         <div class="home">
@@ -18,9 +18,16 @@
             <button id="aboutBtn" onclick="window.location.href='about.html'">About</button>
         </div>
     </div>
+
+    <div class="visitors">
+        <p id="visitors">Total amount of visitors: </p>
+    </div>
+
     <h1>My name is Ynte Wiardus Braaksma</h1>
 
     <h2>I am a Web Developer, MultiMedia Designer and Musician</h2>
+
+    <div class="animatie"></div>
 
     <div class="myWork">
         <button id="workBtn" onclick="window.location.href='#work'">My Work
@@ -32,8 +39,8 @@
         <h1>My Work</h1>
     </div>
 
-    <a id="github" href="https://github.com/Wiardus" target="blank">Github Repo's</a>
+    <a id="github" href="https://github.com/Wiardus?tab=repositories" target="blank">Github Repo's</a>
     
-    
+ <script src="script.js"></script>   
 </body>
 </html>
