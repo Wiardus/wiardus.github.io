@@ -1,8 +1,7 @@
-const visitors = document.getElementById('visitors');
-let count = 0;
-
 function countVisitors () {
+    const visitors = document.getElementById('visitors');
+    let count = 0;
     count ++;
-    visitors.innerHTML += count;
+    visitors.innerHTML += count    
 }
 

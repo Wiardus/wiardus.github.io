@@ -101,12 +101,22 @@ button {
 }
 
 #github {
-    display: flex;
+    position: absolute;
     color: white;
-    margin: auto;
-    width: 0%;
+    margin-left: 820px;
     margin-top: -750px;
-    margin-bottom: 800px;
+}
+
+#pokedex {
+    position: absolute;
+    margin-left: 820px;
+    margin-top: -730px;
+}
+
+#musicBtn {
+    position: absolute;
+    margin-top: -700px;
+    margin-left: 900px;
 }
 
 .contact {
@@ -168,4 +178,9 @@ img {
     color: white;
     font-family: oswald;
     font-size: 20px;
+}
+
+a {
+    color: white;
+   
 }
